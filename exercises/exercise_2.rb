@@ -10,3 +10,7 @@ puts "----------"
 
 @store1.name = "Blobbers"
 @store1.save
+
+#-- line below is equivalent to the line above :)
+
+@store1.update_attribute :name, "Blobbers"
